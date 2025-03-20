@@ -1,0 +1,136 @@
+/* 全体 */
+body {
+	margin: 0;
+	background-color: #e0e0e0; /* 背景色 */
+	text-align: center;
+	min-width: 900px;
+}
+
+
+/*ヘッダー、ナビゲーション */
+header, nav {
+	background-color: #404040;
+	color: #ffffff;
+}
+
+nav {
+	margin-top: 5px;
+	text-align: left;
+}
+
+header a, nav a{
+	color: #ffffff;
+}
+
+nav a{
+	padding-left: 5px;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+/*ヘッダー内見出し*/
+header {
+	display: flex;
+}
+
+header h1{
+	padding-left: 20px;
+	text-align: left;
+	
+}
+
+.account-menu {
+	text-align: right;
+    padding: 40px 0px 5px 888px;
+}
+
+/* login */
+h2 {
+	margin-bottom: 10px;
+}
+
+.login-box {
+	background-color: #ffffff;
+	width: 40%;
+	margin: auto;
+	padding: 40px 0px 40px 0px;
+    border: 1px solid;
+}
+
+.login-box input{
+	width: 50%;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+/* main */
+main {
+	background-color: #e0e0e0;
+	min-height: 50px;
+	padding: 20px;
+}
+
+/* 表線 */
+table, th, td{
+	border-collapse: collapse;
+	border:1px solid #404040;
+}
+
+/* 表 */
+table {
+	background-color: #ffffff;
+	margin: 25px auto;
+	min-width: 70%;
+}
+
+/* 表見出しセル */
+table th{
+	background-color: #404040;
+	color: #ffffff;
+}
+
+td:nth-of-type(2){
+	text-align: left;
+	padding-left: 10px;
+}
+
+/* 送信ボタン */
+button {
+	padding: 5px 20px;
+	background-color: #404040;
+	color: #ffffff;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+
+/* 送信ボタン（マウスオーバー時） */
+button:hover {
+	background-color: #00ac9b;
+}
+
+.customerform input{
+	width: 98%;
+}
+
+.orderconfirm th{
+	width: 300px;
+	padding: 3px;
+}
+
+.orderconfirm td{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.orderd {
+	width: 50%;
+    margin: 40px auto;
+    padding: 60px;
+    background-color: #ffffff;
+    border: 1px solid;
+}
