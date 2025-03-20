@@ -15,3 +15,4 @@ INSERT INTO items(category_id, name, price) VALUES(3, 'パズルゲーム', 780)
 INSERT INTO items(category_id, name, price) VALUES(3, 'Invader Fighter', 3400);
 INSERT INTO items(category_id, name, price) VALUES(3, 'Play the BascketBall', 2200);
 INSERT INTO items(category_id, name, price) VALUES(3, 'こんにちは', 10000);
+INSERT INTO items(category_id, name, price) VALUES(3, 'こんばんは', 500);
